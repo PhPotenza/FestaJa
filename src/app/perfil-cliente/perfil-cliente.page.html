@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-toolbar color="light">
+		<ion-buttons slot="start">
+			<ion-menu-button></ion-menu-button>
+		</ion-buttons>
+    <ion-title>Perfil Cliente</ion-title>
+    <ion-buttons slot="primary">
+          <ion-button (click)="formEditarPerfil()">
+            <ion-icon slot="icon-only" name="create"></ion-icon>
+          </ion-button>
+        </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ion-card>
+<ion-list no-lines>
+
+	<ion-item lines="none">
+          <ion-avatar slot="start">
+            <img src="./assets/avatar-luke.png">
+          </ion-avatar>
+          <ion-label>
+<<<<<<< HEAD
+            <h1><b>{{nome}}</b></h1>
+=======
+            <h2>Luke</h2>
+            <h3>sei la, quis colocar um exemplo assim</h3>
+            <p>e assim tambem.....</p>
+>>>>>>> 695a883edd3519690f7b7bb97f28c4d76264bfdb
+          </ion-label>
+        </ion-item>
+
+	  <ion-item>
+<<<<<<< HEAD
+	    <ion-label><b>Email:</b> {{email}}</ion-label>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label><b>CPF:</b> {{cpf}}</ion-label>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label><b>Celular:</b> {{celular}}</ion-label>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label><b>Telefone:</b> {{telefone}}</ion-label>
+	  </ion-item>
+	
+	  <ion-item lines="none">
+	    <ion-label><b>Contato Secundário:</b> {{contato_secundario}}</ion-label>
+=======
+	    <ion-label>Nome</ion-label>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label>E-mail</ion-label>
+	    
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label>CPF</ion-label>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label>Celular</ion-label>
+	  </ion-item>
+
+	  <ion-item>
+	    <ion-label>Telefone</ion-label>
+	  </ion-item>
+	
+	  <ion-item lines="none">
+	    <ion-label>Contato Secundário</ion-label>
+>>>>>>> 695a883edd3519690f7b7bb97f28c4d76264bfdb
+	  </ion-item>
+
+	</ion-list>
+</ion-card>
+
+</ion-content>
+
+<ion-footer class="ion-padding-bottom">
+	<div class="ion-padding-bottom">
+	  <ion-button expand="block" padding color="light" (click)="formAlterarSenha()">Alterar Senha</ion-button>
+	</div>
+</ion-footer>
