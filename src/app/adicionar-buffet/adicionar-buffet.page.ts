@@ -4,13 +4,12 @@ import { PostProvider } from '../../providers/post-provider';
 import { Router } from '@angular/router';
 import { Storage } from '@ionic/Storage';
 
-
 @Component({
-  selector: 'app-editar-perfil',
-  templateUrl: './editar-perfil.page.html',
-  styleUrls: ['./editar-perfil.page.scss'],
+  selector: 'app-adicionar-buffet',
+  templateUrl: './adicionar-buffet.page.html',
+  styleUrls: ['./adicionar-buffet.page.scss'],
 })
-export class EditarPerfilPage implements OnInit {
+export class AdicionarBuffetPage implements OnInit {
 
   constructor(
   	private router: Router,
@@ -21,8 +20,8 @@ export class EditarPerfilPage implements OnInit {
   ngOnInit() {
   }
 
- formPerfilCliente(){
-    this.router.navigate(['/perfil-cliente']);
+ formBuffet(){
+    this.router.navigate(['/buffet']);
   }
 
 }

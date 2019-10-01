@@ -15,7 +15,6 @@ export class AdicionarEventoPage implements OnInit {
   nome: string = "";
   tipo: string = "";
   idUsuario: number= 0;
-  cep: string = "";
   anggota: any;
 
 
@@ -53,7 +52,6 @@ export class AdicionarEventoPage implements OnInit {
         nome: this.nome,
         tipo: this.tipo,
         IdUsuario: this.idUsuario,
-        cep: this.cep,
         aksi: 'addEvento'
       };
 
